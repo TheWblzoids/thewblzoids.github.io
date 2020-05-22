@@ -25,6 +25,8 @@ urls:
   url: "/blog"
 - text: Courses
   url: "/courses"
+- text: About
+  url: "/about"
 author_logo: profile.png
 megaphone: megaphone.png
 author: blnglishPlease
