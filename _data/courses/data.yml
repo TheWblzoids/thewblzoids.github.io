@@ -1,0 +1,5 @@
+urls:
+    - text: GitHub Learning Lab
+      url: https://lab.github.com
+    - text: Unity Learn
+      url: https://learn.unity.com
