@@ -1,0 +1,100 @@
+---
+layout: default
+---
+
+<script>
+  $(document).ready(function() {
+    $("#typewriteText").typewrite({
+      actions: [{ type: "{{site.typewrite-text}}" }]
+    });
+  });
+</script>
+    <div class="jumbotron" style="text-align: center;">
+      <img class="author-profile-img" src="/assets/img/profile.png" />
+      <p class="jumbotron-heading">Be careful!!!</p>
+      <p class="lead" id="typewriteText"></p>
+      {% if site.github_username %} {%- include github_follow_button.html -%} {%
+      endif %} {%- include github_star_button.html -%}
+    </div>
+    <div class="col-lg-8 offset-md-2">
+
+      <section id="promotion-articles">
+        <div id="promotion-articles-header">
+          <div id="promotion-articles-title">
+            <h1 class="card-title">Articles</h1>
+          </div>
+          <br>
+          <div id="promotion-articles-show-all">
+            <a class="btn btn-lg btn-dark" href="/blog/promotion"> View All </a>
+          </div>
+        </div>
+        <br />
+
+        <ul>
+          {% for post in site.posts limit:5 %}
+          <li class="article-card">
+            <a href="{{post.url}}" class="article-card-link">
+              <div id="article-container">
+                <div id="article-img">
+                  <img
+                    src="/assets/img/{{site.megaphone}}"
+                    width="50px"
+                    height="50px"
+                  />
+                </div>
+                <div id="article-link">
+                    <p class="recent-article-link">{{post.title}}</p>
+                  </div>
+                  <div id="article-alert">
+                  {% for cat in post.category limit:1 %}
+                   <button class="btn btn-sm btn-dark">{{cat}}</button>
+                  {% endfor %}
+                  </div>
+              </div>
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
+      </section>
+
+      <hr>
+
+      <section id="recent-articles">
+        <div id="recent-articles-header">
+          <div id="recent-courses-title">
+            <h1 class="card-title">Courses</h1>
+          </div>
+          <br>
+          <div id="recent-courses-show-all">
+            <a class="btn btn-lg btn-dark" href="/courses"> View All </a>
+          </div>
+        </div>
+        <br />
+
+        <ul>
+          {% for course in site.data.courses.data.urls limit:5 %}
+          <li class="article-card">
+            <a href="{{course.url}}" class="article-card-link">
+              <div id="article-container">
+                <div id="article-img">
+                  <img
+                    src="/assets/img/{{site.megaphone}}"
+                    width="50px"
+                    height="50px"
+                  />
+                </div>
+                <div id="article-link">
+                    <p class="recent-article-link">{{course.text}}</p>
+                  </div>
+                  <div id="article-alert">
+                  {% for cat in post.category limit:1 %}
+                   <button class="btn btn-sm btn-dark">{{cat}}</button>
+                  {% endfor %}
+                  </div>
+              </div>
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
+      </section>
+    </div>

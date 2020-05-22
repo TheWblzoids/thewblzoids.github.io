@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<div class="row" id="blog-posts-container">
+        <div class="col-lg-11 offset-md-1">
+                <div class="card">
+                        <h1 class="card-title"> Links: </h1>
+                        {% for course in site.data.courses.data.urls %}
+                          <li><a href="{{course.url}}"><span style="color: #FF8C00; font-size: 25px;">{{ course.text }}</span></a></li>
+                        {%endfor%}
+                </div>
+        </div>
+</div>
