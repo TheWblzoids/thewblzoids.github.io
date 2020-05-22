@@ -1,8 +1,10 @@
 ---
 title: Promotion and managing
+date: 2020-05-22 00:00:00 Z
+categories:
+- promotion
 layout: post
 summary: Here I added everything on topic
-category: promotion
 thumbnail: promotion.png
 ---
 

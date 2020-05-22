@@ -1,8 +1,10 @@
 ---
 title: GameDev Introduction
+date: 2020-05-22 00:00:00 Z
+categories:
+- intro
 layout: post
 summary: Here I added everything on topic
-category: intro
 thumbnail: intro.jpg
 ---
 
