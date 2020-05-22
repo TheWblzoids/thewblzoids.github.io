@@ -1,8 +1,8 @@
 ---
 title: Get Started
+permalink: "/get-started/"
 menus: header
 layout: page
-permalink: /get-started/
 ---
 
 ## Getting Started - How to use “devlopr-jekyll” theme
