@@ -1,8 +1,7 @@
 ---
+permalink: "/blog/categories/"
 layout: page
-permalink: /blog/categories/
 ---
- 
 
 <h3>  {{ page.title }} </h3>
 
