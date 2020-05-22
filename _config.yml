@@ -1,6 +1,6 @@
 ---
 title: The Wblzoids
-timezone: UTC
+timezone: Europe/Moscow
 collections:
   posts:
     title: Posts
@@ -17,9 +17,9 @@ defaults:
   values:
     permalink: "/:path/:basename:output_ext"
 subtitle: GameDev
-description: devlopr-jekyll is a Jekyll Theme Built For Developers
-url: ''
-baseurl: ''
+description: 
+url: 
+baseurl: 
 urls:
 - text: Articles
   url: "/blog"
@@ -66,7 +66,6 @@ show_author_bio: false
 algolia:
   application_id: D9WA1YKTRQ
   index_name: blog_posts
-  files_to_exclude: []
   nodes_to_index: article
   search_only_api_key: 58ffdd7cd6c45ec1577a7fcd789b1b9a
 paginate: 4
