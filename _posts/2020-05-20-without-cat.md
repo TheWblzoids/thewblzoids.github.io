@@ -1,7 +1,7 @@
 ---
 title: To sort
 date: 2020-05-20 00:00:00 Z
-categories:
+category:
 - tosort
 layout: post
 summary: Many many links

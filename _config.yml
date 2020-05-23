@@ -5,6 +5,9 @@ collections:
   posts:
     title: Posts
     output: true
+  installs:
+    title: Installs
+    output: true
   products:
     title: Products
     output: false
@@ -17,14 +20,16 @@ defaults:
   values:
     permalink: "/:path/:basename:output_ext"
 subtitle: GameDev
-description: 
-url: 
-baseurl: 
+description:
+url:
+baseurl:
 urls:
 - text: Articles
   url: "/blog"
 - text: Courses
   url: "/courses"
+- text: Install guides
+  url: "/install"
 - text: About
   url: "/about"
 author_logo: profile.png
@@ -35,28 +40,28 @@ author_email: thewblzoids@gmail.com
 author_location: Russia
 typewrite-text: this site can make you convert to islam...
 author_work_experiences:
-- company_name: 
-  company_logo: 
-  company_url: 
-  designation: 
-  description: 
-  visibility: 
+- company_name:
+  company_logo:
+  company_url:
+  designation:
+  description:
+  visibility:
 author_education_details:
-- college_logo: 
-  college_name: 
-  college_url: 
-  college_degree: 
-  description: 
-  visibility: 
+- college_logo:
+  college_name:
+  college_url:
+  college_degree:
+  description:
+  visibility:
 author_project_details:
-- project_thumbnail: 
-  project_title: 
-  project_description: 
-  project_url: 
-  visibility: 
+- project_thumbnail:
+  project_title:
+  project_description:
+  project_url:
+  visibility:
 github_username: TheWblzoids
-mailchimp_form_url: 
-formspree_email: 
+mailchimp_form_url:
+formspree_email:
 markdown: kramdown
 highlighter: rouge
 permalink: pretty
@@ -93,3 +98,10 @@ exclude:
 - vendor/gems/
 - vendor/ruby/
 destination: "./build"
+
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
