@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2020-08-08T07:06:58+03:00</updated><id>/feed.xml</id><title type="html">The Wblzoids</title><author><name>blnglishPlease</name></author><entry><title type="html">GameDev Introduction</title><link href="/intro/2020/05/22/intro-to-gamedev/" rel="alternate" type="text/html" title="GameDev Introduction" /><published>2020-05-22T03:00:00+03:00</published><updated>2020-05-22T03:00:00+03:00</updated><id>/intro/2020/05/22/intro-to-gamedev</id><content type="html" xml:base="/intro/2020/05/22/intro-to-gamedev/">&lt;p&gt;Useful links about game industry and indie game development:&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://habr.com/ru/company/miip/blog/313326/&quot;&gt;What to start with?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>blnglishPlease</name></author><category term="[&quot;intro&quot;]" /><summary type="html">Useful links about game industry and indie game development:</summary></entry><entry><title type="html">Promotion and managing</title><link href="/promotion/2020/05/22/promotion/" rel="alternate" type="text/html" title="Promotion and managing" /><published>2020-05-22T03:00:00+03:00</published><updated>2020-05-22T03:00:00+03:00</updated><id>/promotion/2020/05/22/promotion</id><content type="html" xml:base="/promotion/2020/05/22/promotion/">&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://coremission.net/gamedev/kak-sobrat-igrokov-vokrug-igry/&quot;&gt;Tips about fandom.&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://www.indievideogames.com/pages/index.php&quot;&gt;IndieVideoGames.&lt;/a&gt; Platform to promote indie games.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>blnglishPlease</name></author><category term="[&quot;promotion&quot;]" /><summary type="html">Tips about fandom.</summary></entry><entry><title type="html">Website development</title><link href="/web/2020/05/21/website-dev/" rel="alternate" type="text/html" title="Website development" /><published>2020-05-21T03:00:01+03:00</published><updated>2020-05-21T03:00:01+03:00</updated><id>/web/2020/05/21/website-dev</id><content type="html" xml:base="/web/2020/05/21/website-dev/">&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://jekyllrb.com/docs/&quot;&gt;Jekyll docs.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This site made on jekyll by the way.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://habr.com/ru/post/334088/&quot;&gt;Website without cost.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Some information about free hostings.&lt;/p&gt;</content><author><name>blnglishPlease</name></author><category term="[&quot;web&quot;]" /><summary type="html">Jekyll docs.</summary></entry><entry><title type="html">To sort</title><link href="/tosort/2020/05/20/without-cat/" rel="alternate" type="text/html" title="To sort" /><published>2020-05-20T03:00:00+03:00</published><updated>2020-05-20T03:00:00+03:00</updated><id>/tosort/2020/05/20/without-cat</id><content type="html" xml:base="/tosort/2020/05/20/without-cat/">&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://hsbi.hse.ru/programs/vocational_retraining/menedzhment-igrovykh-internet-proektov/useful-resources/&quot;&gt;Many useful links&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://proglib.io/p/50-youtube-kanalov-dlya-razrabotchikov-igr-2020-05-13&quot;&gt;More useful youtube channels&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>blnglishPlease</name></author><category term="[&quot;tosort&quot;]" /><summary type="html">Many useful links More useful youtube channels</summary></entry></feed>
